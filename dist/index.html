@@ -3,13 +3,114 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.min.css" />
     <title>Document</title>
   </head>
   <body>
-    <header>header</header>
+    <header>
+      <div class="conteiner">
+        <div class="header">
+          <div class="header__logo">
+            <div class="header__menu">
+              <p class="header__text">Web<span>Studio</span></p>
     
-    <main>main</main>
+              <button
+                type="button"
+                class="menu-buttom is-open"
+                arial-expanded="false"
+                data-menu-button
+              >
+                <svg
+                  width="40px"
+                  height="40px"
+                  aria-label="Перемикач мобільного меню"
+                >
+                  <use
+                    class="icon__menu"
+                    href="../images/sprite.svg#menu_40px"
+                  ></use>
+                  <use
+                    class="icon__close"
+                    href="../images/sprite.svg#close_40px"
+                  ></use>
+                </svg>
+              </button>
+    
+              <nav class="header__ination" data-menu>
+                <ul class="header__nav">
+                  <li class="header__nav__item">
+                    <a href="" class="header__nav__link">Студия</a>
+                  </li>
+                  <li class="header__nav__item">
+                    <a href="" class="header__nav__link">Портфолио</a>
+                  </li>
+                  <li class="header__nav__item">
+                    <a href="" class="header__nav__link">Контакты</a>
+                  </li>
+                </ul>
+    
+                <ul class="header__contact">
+                  <li class="header__contact__item">
+                    <a href="" class="header__contact__link">+38 096 111 11 11</a>
+                    <svg class="header__contact__icon" width="16px" height="12px">
+                      <use href="../images/sprite.svg#smartphonenav"></use>
+                    </svg>
+                  </li>
+                  <li class="header__contact__item">
+                    <a href="" class="header__contact__adres">info@devstudio.com</a>
+                    <svg class="header__contact__icon" width="16" height="12">
+                      <use href="../images/sprite.svg#envelopenav"></use>
+                    </svg>
+                  </li>
+                </ul>
+                <ul class="header__socials">
+                  <li class="header__socials__item">
+                    <a class="header__socials__link" href="">Instagram</a>
+                  </li>
+                  <li class="header__socials__item">
+                    <a class="header__socials__link" href="">Twitter</a>
+                  </li>
+                  <li class="header__socials__item">
+                    <a class="header__socials__link" href="">Facebook</a>
+                  </li>
+                  <li class="header__socials__item">
+                    <a class="header__socials__link" href="">LinkedIn</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    
+    <!--Hero-->
+          <section class="hero">
+          
+              <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
+              <button class="hero__button" data-modal-open type="button">
+                Заказать услугу
+              </button>
+              <div class="backdrop is-hidden" data-modal>
+                <div class="modal">
+                  <button class="close-button" data-modal-close type="button">
+                    <svg viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M15 4.108L13.892 3 9.5 7.392 5.108 3 4 4.108 8.392 8.5 4 12.892 5.108 14 9.5 9.608 13.892 14 15 12.892 10.608 8.5 15 4.108z"
+                        fill="#000"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </section>
+    
+    <main></main>
     <footer>footer</footer>
     
 
