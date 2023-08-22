@@ -1,21 +1,28 @@
 <!--Hero-->
       <section class="hero">
       
+      
+      
           <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
-          <button class="hero__button" data-modal-open type="button">
-            Заказать услугу
-          </button>
-          <div class="backdrop is-hidden" data-modal>
-            <div class="modal">
-              <button class="close-button" data-modal-close type="button">
-                <svg viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M15 4.108L13.892 3 9.5 7.392 5.108 3 4 4.108 8.392 8.5 4 12.892 5.108 14 9.5 9.608 13.892 14 15 12.892 10.608 8.5 15 4.108z"
-                    fill="#000"
-                  />
-                </svg>
-              </button>
-            </div>
-          </div>
-        </div>
+          <div class="container">
+        <button type="button" data-modal-open class="hero__button">Заказать услугу</button>
+      </div>
+         
+           <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" data-modal-close> <svg
+              width="40px"
+              height="40px"
+              aria-label="Перемикач мобільного меню"
+            >
+              
+              <use
+                class="icon__close"
+                href="../images/sprite.svg#close_40px"
+              ></use>
+            </svg></button>
+        
+      </div>
+    </div>
+
       </section>
