@@ -1,0 +1,30 @@
+.about {
+  &__list {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  &__icon {
+    margin-top: 50px;
+  }
+  &__title {
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+  &__title {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+  }
+  &__text {
+    text-align: left;
+    color: #757575;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 172%; /* 171.429% */
+    letter-spacing: 0.42px;
+  }
+}
