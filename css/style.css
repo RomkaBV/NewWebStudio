@@ -516,6 +516,7 @@ body {
 }
 
 .hero__backdrop {
+  z-index: 6;
   position: fixed;
   top: 0;
   left: 0;
